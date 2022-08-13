@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Registration form</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>
+            <i>Registration form</i>
+        </h1> <br> <br>
+    </header>
+
+    <div class="main-div" >
+        <form name="myForm" onsubmit="return validate()" >
+            <div class="form-div">
+                <span>
+                    <label>Your name :</label>
+                    <input type="text" name="Name" >
+                </span> <br> <br>
+    
+                <span>
+                    <label>Your email :</label>
+                    <input type="text" name="Email" >
+                </span> <br> <br>
+    
+                <span>
+                    <label>Your age :</label>
+                    <input type="number" name="Age" >
+                </span> <br> <br>
+    
+                <span>
+                    <label>Mobile number :</label>
+                    <input type="text" placeholder="10 digit number" name="number" >
+                </span>
+    
+            </div>
+            <br> <br>
+        </form>
+        <div class="submit">
+            <button onclick="validate()" id="btn" >Submit</button>
+        </div>
+
+    </div>
+
+    <script src="form.js"></script>
+
+</body>
+
+</html>
