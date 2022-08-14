@@ -24,4 +24,5 @@ function validate() {
     }
 
     alert("Response received. Thank you!");
+    alert("You may close this tab now!")
 }
