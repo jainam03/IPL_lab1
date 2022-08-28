@@ -17,34 +17,37 @@
         </h1> <br> <br>
     </header>
 
-    <div class="main-div" >
-        <form name="myForm" onsubmit="return validate()" >
+    <div class="main-div">
+        <form name="myForm" onsubmit="return validate()">
             <div class="form-div">
                 <span>
                     <label>Your name :</label>
-                    <input type="text" name="Name" >
+                    <input type="text" name="Name">
                 </span> <br> <br>
-    
+
                 <span>
                     <label>Your email :</label>
-                    <input type="text" name="Email" >
+                    <input type="text" name="Email">
+                    <p>Verify your email
+                        <a href="./emailVerification.html" target="_blank">here</a>
+                    </p>
                 </span> <br> <br>
-    
+
                 <span>
                     <label>Your age :</label>
-                    <input type="number" name="Age" >
+                    <input type="number" name="Age">
                 </span> <br> <br>
-    
+
                 <span>
                     <label>Mobile number :</label>
-                    <input type="text" placeholder="10 digit number" name="number" >
+                    <input type="text" placeholder="10 digit number" name="number">
                 </span>
-    
+
             </div>
             <br> <br>
         </form>
         <div class="submit">
-            <button onclick="validate()" id="btn" >Submit</button>
+            <button onclick="validate()" id="btn">Submit</button>
         </div>
 
     </div>
